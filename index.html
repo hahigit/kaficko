@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="cs">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Drink log</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top">
+    <div>
+      <div class="brand">Drink log</div>
+      <div class="sub">Zvol uživatele a zadej množství.</div>
+    </div>
+    <button id="btnReload" class="btn btn--ghost" type="button">Obnovit</button>
+  </header>
+
+  <main class="wrap">
+    <section class="card">
+      <div class="card__title">Uživatel</div>
+      <div id="usersList" class="chips"></div>
+    </section>
+
+    <section class="card">
+      <div class="card__title">Drinky</div>
+      <div id="drinksGrid" class="grid"></div>
+    </section>
+
+    <section class="card">
+      <div class="card__title">Odeslat</div>
+
+      <form id="form" class="form">
+       
+
+        <button id="btnSubmit" class="btn" type="submit">Odeslat</button>
+
+        <div id="status" class="status" aria-live="polite"></div>
+        <pre id="responseBox" class="code"></pre>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
