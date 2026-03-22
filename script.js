@@ -1,4 +1,4 @@
-const url = "https://lmpss3.dev.spsejecna.net/procedure2.php";
+const url = "http://lmpss3.dev.spsejecna.net/procedure.php?cmd=listCmd";
 
 const username = "coffe";
 const password = "kafe";
